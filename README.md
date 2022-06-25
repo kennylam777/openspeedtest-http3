@@ -10,5 +10,4 @@ docker run --name nginx --rm -ti -e QUIC_CC=reno -p 443:443 -p 443:443/udp -v $P
 ```
 
 ## Known Issues
-1. Upload test may not work in HTTP/3, same issue as in HTTP/2
-2. Some cloud service provider may throttle UDP traffic, resulting slow performance
+1. Some cloud service provider may throttle UDP traffic, resulting slow performance for HTTP/3.
